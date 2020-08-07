@@ -1,9 +1,10 @@
 /* タブレット用のCSS・ウィンドウが767pxまでの場合に適用*/
 @media screen and (max-width: 767px) {
+    /* headerの横幅を250pxにする */
     .header {
         width: 250px;
     }
-
+    /* rightの横幅を100pxにする */
     .right {
         width: 100px;
         height: 250px;
@@ -14,6 +15,7 @@
         height: 250px;  
     }
 
+    /* footerの横幅を250pxにする */
     .footer {
         width: 250px;
     }
@@ -25,14 +27,17 @@
         width: 150px;
     }
 
+    rightがfooterの下に入流のを防ぐ
     .contents {
         height: 500px;
     }
 
+    /* headerの横幅を150pxにする */
     .header {
         width: 150px;
     }
 
+    /* rightの横幅を150pxにする */
     .right {
         width: 150px;
         float: none;
@@ -42,6 +47,7 @@
         float: none;   
     }
 
+    /* footerの横幅を150pxにする */
     .footer {
         width: 150px;
     }
