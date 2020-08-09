@@ -1,0 +1,116 @@
+/* 全体 */
+body {
+    min-height: 100%;
+    height: 100%;
+}
+
+.clearfix::after {
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.wrapper {
+    width: 400px;
+    /* wrapperクラス中央寄せ */
+    margin: 0 auto;
+}
+
+/* ヘッダー */
+.header {
+    height: 100px;
+    background-color: #141f40;
+}
+
+.header-1 {
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #a9004b;
+    border: solid #eee;
+    border-width: 10px 10px 10px 5px;
+    float: right;
+}
+
+.header-2 {
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    background-color: #a9004b;
+    border: solid #eee;
+    border-width: 10px 5px 10px 5px;
+    float: right;
+}
+
+.header-3 {
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    background-color: #a9004b;
+    border: solid #eee;
+    border-width: 10px 5px 10px 10px;
+    float: right;
+}
+
+/* 中身 */
+
+.contents {
+    width: 100%;
+    height: 250px;
+}
+
+/* 左 */
+.left {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+
+/* 右 */
+.right {
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+    float: right;
+}
+
+.right-1 {
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    margin: 40px 60px 10px 40px;
+    border: 5px solid #eee;
+}
+
+.right-2 {
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    margin: 10px 60px 10px 40px;
+    border: 5px solid #eee;
+}
+
+.right-3 {
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    margin: 10px 60px 40px 40px;
+    border: 5px solid #eee;
+}
+
+/* フッター */
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #d98d30;
+    float: left;
+}
+
+/* リセットCSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
