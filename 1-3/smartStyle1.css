@@ -27,7 +27,7 @@
         width: 150px;
     }
 
-    rightがfooterの下に入流のを防ぐ
+    /* rightがfooterの下に入るのを防ぐ */
     .contents {
         height: 500px;
     }
