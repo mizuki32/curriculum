@@ -1,0 +1,88 @@
+/* 全体 */
+body {
+    min-height: 100%;
+    height: 100%;
+}
+
+.clearfix::after {
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.wrapper {
+    width: 350px;
+    /* wrapperクラス中央寄せ */
+    margin: 0 auto;
+}
+
+/* 上段 */
+.upper {
+    height: 100px;
+}
+
+.upper-1 {
+    width: 150px;
+    height: 100%;
+    background-color: #FFFF66;
+    float: left;
+}
+
+.upper-2 {
+    width: 200px;
+    height: 100%;
+    background-color: #666666;
+    float: left;
+}
+
+/* 中断 */
+.middle {
+    height: 150px;
+}
+
+.middle-1 {
+    width: 150px;
+    height: 100%;
+    background-color: #FF3333;
+    float: left;
+}
+
+.middle-2 {
+    width: 100px;
+    height: 100%;
+    background-color: #3366FF;
+    float: left;
+}
+
+.middle-3 {
+    width: 100px;
+    height: 100%;
+    background-color: #669933;
+    float: left;
+}
+
+/* 下段 */
+.lower {
+    height: 100px;
+}
+
+.lower-1 {
+    width: 150px;
+    height: 100%;
+    background-color: #FF9966;
+    float: left;
+}
+
+.lower-2 {
+    width: 100px;
+    height: 100%;
+    background-color: #FFFFCC;
+    float: left;
+}
+
+.lower-3 {
+    width: 100px;
+    height: 100%;
+    background-color: #330066;
+    float: left;
+}
